@@ -2,6 +2,7 @@
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
 import { CodeS3BucketStack } from '../lib/code-s3-bucket-stack';
+import { EcrStack } from '../lib/ecr-stack';
 
 const app = new cdk.App();
 new CodeS3BucketStack(app, 'CodeS3BucketStack', {
@@ -19,3 +20,4 @@ new CodeS3BucketStack(app, 'CodeS3BucketStack', {
 
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 });
+new EcrStack(app, 'EcrStack', {});
