@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`S3 Bucket Snapshot 1`] = `
+Object {
+  "Resources": Object {
+    "CodeBucketFF4C7AD6": Object {
+      "DeletionPolicy": "Delete",
+      "Properties": Object {
+        "BucketName": "react-ecs-bucket",
+        "VersioningConfiguration": Object {
+          "Status": "Enabled",
+        },
+      },
+      "Type": "AWS::S3::Bucket",
+      "UpdateReplacePolicy": "Delete",
+    },
+  },
+}
+`;

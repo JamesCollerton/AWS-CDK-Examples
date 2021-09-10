@@ -8,7 +8,7 @@ export class EcrStack extends cdk.Stack {
     super(scope, id, props);
 
     new ecr.Repository(this, 'EcrRepository', {
-        repositoryName: "react-ecs",
+        repositoryName: "react-ecs-ecr",
         removalPolicy: RemovalPolicy.DESTROY
     });
   }

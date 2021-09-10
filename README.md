@@ -1,8 +1,8 @@
-# Welcome to your CDK TypeScript project!
+# AWS CDK Examples
 
-This is a blank project for TypeScript development with CDK.
+This is a project for TypeScript development with the AWS CDK. It contains a small number of example projects used to demonstrate some of the core functionality of the framework.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+The `cdk.json` file tells the CDK Toolkit how to execute the app.
 
 ## Useful commands
 
@@ -12,3 +12,5 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+
+Note, this is built on Node `14.17.5`.
